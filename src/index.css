@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-container {
+  border: 2px solid black;
+  width: max-content;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product-container {
+  display: flex;
+  gap: 10px;
+}
+
+.cart-list-container {
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
